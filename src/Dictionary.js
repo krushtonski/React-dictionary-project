@@ -11,7 +11,7 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
-  // Calling the API
+  // Calling the API - https://dictionaryapi.dev/
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_GB/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
