@@ -1,10 +1,10 @@
-.Meaning h3 {
-  font-size: 24px;
+.Meaning h4 {
+  font-size: 32px;
   line-height: 1.5;
   font-weight: bold;
 }
 .Meaning .example {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.7;
   font-style: italic;
   margin-top: 10px;
