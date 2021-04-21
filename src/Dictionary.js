@@ -3,7 +3,6 @@ import Results from "./Results";
 import axios from "axios";
 import Photos from "./Photos";
 import Image from "./Images/Reading.png";
-import SearchIcon from "./Images/search.png";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
