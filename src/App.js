@@ -10,7 +10,7 @@ function App() {
       <main>
         <Dictionary defaultKeyword="forest" />
       </main>
-      <footer className="App-footer">
+      <footer className="footer">
         <small>
           <a
             href="https://github.com/krushtonski/React-dictionary-project"
@@ -18,16 +18,36 @@ function App() {
             rel="noreferrer"
             alt="link to github repository"
           >
-            Open Source Code
+            Open Source Code{" "}
           </a>
-          by
+          by{" "}
           <a
-            href="https://www.linkedin.com/in/krusht/"
             target="_blank"
             rel="noreferrer"
+            href="https://www.linkedin.com/in/krusht/"
             alt="link to LinkedIn profile for Kate Rushton"
           >
             Kate Rushton
+          </a>
+        </small>
+        <br />
+        <small>
+          <a
+            href="https://blush.design/collections/open-doodles/doodles-reading/G3WUfj8isJ"
+            target="_blank"
+            rel="noreferrer"
+            alt="link to Illustration of Woman Reading"
+          >
+            Illustration{" "}
+          </a>
+          by{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://blush.design/"
+            alt="link to Blush Design Website"
+          >
+            Pablo Stanley at Blush.design
           </a>
         </small>
       </footer>

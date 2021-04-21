@@ -1,15 +1,22 @@
-* {
-  background-color: #ffffff;
-  font-family: "Fira Sans", sans-serif;
+:root {
+  --primary-color: rgba(237, 223, 239, 0.2);
+  --secondary-color: rgba(0, 0, 0, 0.7);
+  --tertiary-color: rgba(0, 0, 0, 0.5);
+  --quarternary-color: rgba(255, 86, 120, 0.3);
+  --fifth-color: rgba(255, 86, 120);
+  --sixth-color: white;
+  --main-font-family: "Roboto", sans-serif;
+  --title-font-family: "Fira Sans", sans-serif;
+  --primary-border-color: 0.5px solid var(--quarternary-color);
+  --secondary-border-color: 0.5px solid rgba(114, 112, 114, 0.5);
 }
-a {
-  color: #845fe2;
+* {
+  font-family: var(--main-font-family);
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
 }
-.App-footer {
-  text-align: center;
-  margin: 10px;
+.footer {
+  text-align: left;
 }

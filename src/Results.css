@@ -1,5 +1,8 @@
 .Results h3 {
+  font-family: var(--title-font-family);
   font-size: 56px;
   font-weight: bold;
   line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-color: var(--fifth-color);
 }

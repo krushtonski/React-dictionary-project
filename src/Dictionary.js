@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Results from "./Results";
 import axios from "axios";
 import Photos from "./Photos";
+import Image from "./Images/Reading.png";
+import SearchIcon from "./Images/search.png";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -49,13 +51,21 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>Dictionary</h1>
+          <span className="Heading row">
+            <img
+              src={Image}
+              className="Reading d-none d-lg-block"
+              alt="Lady reading a book"
+            />
+            <h1 className="DictionaryHeader text-center">Dictionary</h1>
+          </span>
           <h2>What are you looking for?</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
               placeholder="Search for a word"
               onChange={handleKeywordChange}
+              className="Input"
             />
           </form>
           <div className="hint">
